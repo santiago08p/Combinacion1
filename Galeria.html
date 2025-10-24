@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galeria</title>
+  <link rel="stylesheet" href="css/Galeria.css">
+</head>
+<body>
+  <header>
+    <h1>Galeria</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="Galeria.html">Galería</a></li>
+        <li><a href="Videos.html">Videos</a></li>
+        <li><a href="Audios.html">Audios</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="Galeria">
+    <img src="img/bea.jpeg" alt="Imagen 1">
+    <img src="img/gato.jpeg" alt="Imagen 2">
+    <img src="img/lee hi.jpeg" alt="Imagen 3">
+    <img src="img/minero.jpeg" alt="Imagen 4">
+    <img src="img/resident.jpeg" alt="Imagen 5">
+    <img src="img/spiderman.jpeg" alt="Imagen 6">
+  </main>
+
+ <!-- Lightbox -->
+  <div id="lightbox" class="lightbox">
+    <span class="cerrar">&times;</span>
+    <img class="lightbox-contenido" id="imagen-ampliada">
+    <div id="caption"></div>
+  </div>
+
+  <script src="js/scripts.js"></script>
+</body>
+</html>
