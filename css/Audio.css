@@ -8,7 +8,7 @@ body {
 
 header {
   background-color: #BE67F0;
-  color: white;
+  color: blue;
   text-align: center;
   padding: 20px 0;
 }
@@ -60,3 +60,4 @@ nav ul li a:hover {
   font-weight: bold;
   margin-bottom: 5px;
 }
+
