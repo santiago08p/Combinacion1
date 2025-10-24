@@ -2,13 +2,13 @@
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  background-color: #BE67F0;
+  background-color: #4A3B9C;
   color: #333;
 }
 
 header {
-  background-color: #BE67F0;
-  color: white;
+  background-color: #4A3B9C;
+  color: blue;
   text-align: center;
   padding: 20px 0;
 }
@@ -96,4 +96,5 @@ nav ul li a:hover {
   font-size: 40px;
   color: white;
   cursor: pointer;
+
 }
